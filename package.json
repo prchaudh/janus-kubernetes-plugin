@@ -1,5 +1,5 @@
 {
-	"name": "@pfeifferj/plugin-scaffolder-backend-module-kubernetes-deploy",
+	"name": "@devit/plugin-scaffolder-backend-module-kubernetes-deploy",
 	"description": "The kubernetes-deploy module for @backstage/plugin-scaffolder-backend",
 	"version": "0.0.27",
 	"main": "src/index.ts",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pfeifferj/backstage-plugin-scaffolder-kubernetes-deploy.git"
+		"url": "https://gitlab.cee.redhat.com/devhub/dynamic-plugins/devit-plugin-scaffolder-backend-module-kubernetes-deploy.git"
 	},
 	"author": "pfeifferj",
 	"backstage": {
