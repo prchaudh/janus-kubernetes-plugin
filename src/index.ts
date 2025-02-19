@@ -4,6 +4,7 @@ import {
 } from '@backstage/backend-plugin-api';
 import { scaffolderActionsExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
 import { deployKubernetesAction } from './actions/k8s-apply';
+import { readFileAction } from './actions/read-file';
 
 /**
  * @public
@@ -19,7 +20,7 @@ export const deployKubernetesModule = createBackendModule({
 				config: coreServices.rootConfig,
 			},
 			async init({ scaffolderActions }) {
-				scaffolderActions.addActions(deployKubernetesAction());
+				scaffolderActions.addActions(deployKubernetesAction(), readFileAction());
 			},
 		});
 	},
