@@ -52,7 +52,7 @@
 		"@types/jest": "^29.5.14",
 		"@types/node": "^22.10.1",
 		"@types/promise-fs": "^2.1.5",
-		"isolated-vm": "^5.0.1"
+		"isolated-vm": "^4.5.0"
 	},
 	"exports": {
 	  ".": "./src/index.ts",
