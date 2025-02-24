@@ -49,7 +49,7 @@ _This plugin was created through the Backstage CLI_
 
 ## Export Instructions
 ### Run the commands in the following order to export the plugin
-1. `npm install`
+1. `yarn install`
 2. `yarn tsc`
 3. `yarn build`
 4. `yarn export-dynamic`
